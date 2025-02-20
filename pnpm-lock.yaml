@@ -126,8 +126,8 @@ importers:
         specifier: 15.2.0
         version: 15.2.0(i18next@24.1.2(typescript@5.7.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react-markdown:
-        specifier: ^9.0.1
-        version: 9.0.1(@types/react@19.0.1)(react@19.0.0)
+        specifier: ^10.0.0
+        version: 10.0.0(@types/react@19.0.1)(react@19.0.0)
       react-router:
         specifier: 'catalog:'
         version: 7.1.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -4043,8 +4043,8 @@ packages:
       react-native:
         optional: true
 
-  react-markdown@9.0.1:
-    resolution: {integrity: sha512-186Gw/vF1uRkydbsOIkcGXw7aHq0sZOCRFFjGrr7b9+nVZg4UfA4enXCaxm4fUzecU38sWfrNDitGhshuU7rdg==}
+  react-markdown@10.0.0:
+    resolution: {integrity: sha512-4mTz7Sya/YQ1jYOrkwO73VcFdkFJ8L8I9ehCxdcV0XrClHyOJGKbBk5FR4OOOG+HnyKw5u+C/Aby9TwinCteYA==}
     peerDependencies:
       '@types/react': '>=18'
       react: '>=18'
@@ -8661,9 +8661,10 @@ snapshots:
     optionalDependencies:
       react-dom: 19.0.0(react@19.0.0)
 
-  react-markdown@9.0.1(@types/react@19.0.1)(react@19.0.0):
+  react-markdown@10.0.0(@types/react@19.0.1)(react@19.0.0):
     dependencies:
       '@types/hast': 3.0.4
+      '@types/mdast': 4.0.4
       '@types/react': 19.0.1
       devlop: 1.1.0
       hast-util-to-jsx-runtime: 2.3.2
@@ -9200,7 +9201,7 @@ snapshots:
       rollup: 4.28.1
       source-map: 0.8.0-beta.0
       sucrase: 3.35.0
-      tinyexec: 0.3.1
+      tinyexec: 0.3.2
       tinyglobby: 0.2.10
       tree-kill: 1.2.2
     optionalDependencies:
